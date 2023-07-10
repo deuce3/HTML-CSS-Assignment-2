@@ -1,0 +1,149 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: block;
+    align-content: center;
+    margin: auto;
+    width: 25%;
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(114,152,255,255)
+  }
+
+.signin-container {
+    border: 1px rgb(230, 230, 230) solid;
+    display: block;
+    align-content: center;
+    margin: auto;
+    padding: 0% 5% 1% 5%;
+}
+
+.signin-h2 {
+    font-weight: lighter;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.email-label {
+    color: darkslategray;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 0.8em;
+}
+
+.email-input {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 1px solid rgba(191,191,191,255);
+    border-radius: 2px;
+}
+
+.password-row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password-label {
+    color: darkslategray;
+    font-size: 0.8em;
+    margin-left: 10%;
+}
+
+.forgot-password-link {
+    font-size: 0.8em;
+    margin-left: 40%;
+}
+
+.password-input {
+    width: 100%;
+    margin-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 1px solid rgba(191,191,191,255);
+    border-radius: 2px;
+}
+
+.continue-button {
+    width: 102.5%;
+    margin-top: 3%;
+    padding: 1.5%;
+    font-size: 0.75em;
+    background-color: rgba(247,197,71,255);
+    border: 1px solid rgba(191,191,191,255);
+    border-radius: 2px;
+}
+
+ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+    font-size: 0.8em;
+  }
+
+  li::before { 
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.25em 0 0.25em 0.35em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+  }
+
+  li {
+    margin-left: 5%;
+    padding-bottom: 2%;
+  }
+
+  .new-user-title-container {
+    text-align: center;
+    color: gray;
+    margin-top: 0px;
+  }
+
+  .signup-button {
+    display: block;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    width: 95%;
+    padding: 1.5%;
+    font-size: 0.75em;
+    background-color: rgba(231,233,236,255);
+    border: 1px solid slategrey;
+    margin-bottom: 13%;
+  }
+
+.footer_divider {
+    margin-top: 13%;
+}
+
+.footer-links-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 15%;
+    font-size: 0.65em;
+    margin-top: 2%;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.65em;
+    margin-top: 1%;
+}
